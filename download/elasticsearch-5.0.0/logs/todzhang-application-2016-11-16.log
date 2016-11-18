@@ -1,0 +1,27 @@
+[2016-11-16T08:55:34,818][INFO ][o.e.n.Node               ] [node-todzhang] stopping ...
+[2016-11-16T08:55:35,055][INFO ][o.e.n.Node               ] [node-todzhang] stopped
+[2016-11-16T08:55:35,056][INFO ][o.e.n.Node               ] [node-todzhang] closing ...
+[2016-11-16T08:55:35,169][INFO ][o.e.n.Node               ] [node-todzhang] closed
+[2016-11-16T22:03:13,473][INFO ][o.e.n.Node               ] [node-todzhang] initializing ...
+[2016-11-16T22:03:13,598][INFO ][o.e.e.NodeEnvironment    ] [node-todzhang] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [177.7gb], net total_space [464.7gb], spins? [unknown], types [hfs]
+[2016-11-16T22:03:13,598][INFO ][o.e.e.NodeEnvironment    ] [node-todzhang] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-11-16T22:03:13,612][INFO ][o.e.n.Node               ] [node-todzhang] version[5.0.0], pid[1105], build[253032b/2016-10-26T04:37:51.531Z], OS[Mac OS X/10.12.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2016-11-16T22:03:15,033][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [aggs-matrix-stats]
+[2016-11-16T22:03:15,033][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [ingest-common]
+[2016-11-16T22:03:15,034][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [lang-expression]
+[2016-11-16T22:03:15,034][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [lang-groovy]
+[2016-11-16T22:03:15,034][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [lang-mustache]
+[2016-11-16T22:03:15,034][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [lang-painless]
+[2016-11-16T22:03:15,034][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [percolator]
+[2016-11-16T22:03:15,034][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [reindex]
+[2016-11-16T22:03:15,034][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [transport-netty3]
+[2016-11-16T22:03:15,034][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [transport-netty4]
+[2016-11-16T22:03:15,035][INFO ][o.e.p.PluginsService     ] [node-todzhang] no plugins loaded
+[2016-11-16T22:03:18,112][INFO ][o.e.n.Node               ] [node-todzhang] initialized
+[2016-11-16T22:03:18,112][INFO ][o.e.n.Node               ] [node-todzhang] starting ...
+[2016-11-16T22:03:23,319][INFO ][o.e.t.TransportService   ] [node-todzhang] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-11-16T22:03:26,391][INFO ][o.e.c.s.ClusterService   ] [node-todzhang] new_master {node-todzhang}{KenLmXv4Qy-XZhGQREUzKA}{DtnVO2ywQJOfjAM9IYV18g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-11-16T22:03:26,422][INFO ][o.e.h.HttpServer         ] [node-todzhang] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-11-16T22:03:26,422][INFO ][o.e.n.Node               ] [node-todzhang] started
+[2016-11-16T22:03:26,711][INFO ][o.e.g.GatewayService     ] [node-todzhang] recovered [1] indices into cluster_state
+[2016-11-16T22:03:26,971][INFO ][o.e.c.r.a.AllocationService] [node-todzhang] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).

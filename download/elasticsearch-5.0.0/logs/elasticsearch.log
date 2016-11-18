@@ -1,0 +1,53 @@
+[2016-11-13T21:09:56,182][INFO ][o.e.n.Node               ] [] initializing ...
+[2016-11-13T21:09:56,281][INFO ][o.e.e.NodeEnvironment    ] [KenLmXv] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [177.3gb], net total_space [464.7gb], spins? [unknown], types [hfs]
+[2016-11-13T21:09:56,282][INFO ][o.e.e.NodeEnvironment    ] [KenLmXv] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-11-13T21:09:56,283][INFO ][o.e.n.Node               ] [KenLmXv] node name [KenLmXv] derived from node ID; set [node.name] to override
+[2016-11-13T21:09:56,287][INFO ][o.e.n.Node               ] [KenLmXv] version[5.0.0], pid[1303], build[253032b/2016-10-26T04:37:51.531Z], OS[Mac OS X/10.12.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2016-11-13T21:09:57,305][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [aggs-matrix-stats]
+[2016-11-13T21:09:57,305][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [ingest-common]
+[2016-11-13T21:09:57,306][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [lang-expression]
+[2016-11-13T21:09:57,306][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [lang-groovy]
+[2016-11-13T21:09:57,306][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [lang-mustache]
+[2016-11-13T21:09:57,306][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [lang-painless]
+[2016-11-13T21:09:57,306][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [percolator]
+[2016-11-13T21:09:57,306][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [reindex]
+[2016-11-13T21:09:57,306][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [transport-netty3]
+[2016-11-13T21:09:57,307][INFO ][o.e.p.PluginsService     ] [KenLmXv] loaded module [transport-netty4]
+[2016-11-13T21:09:57,307][INFO ][o.e.p.PluginsService     ] [KenLmXv] no plugins loaded
+[2016-11-13T21:10:00,029][INFO ][o.e.n.Node               ] [KenLmXv] initialized
+[2016-11-13T21:10:00,030][INFO ][o.e.n.Node               ] [KenLmXv] starting ...
+[2016-11-13T21:10:05,279][INFO ][o.e.t.TransportService   ] [KenLmXv] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-11-13T21:10:08,343][INFO ][o.e.c.s.ClusterService   ] [KenLmXv] new_master {KenLmXv}{KenLmXv4Qy-XZhGQREUzKA}{KTh8g0mDT1uC9Zaxk64kJg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-11-13T21:10:08,367][INFO ][o.e.h.HttpServer         ] [KenLmXv] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-11-13T21:10:08,367][INFO ][o.e.n.Node               ] [KenLmXv] started
+[2016-11-13T21:10:08,370][INFO ][o.e.g.GatewayService     ] [KenLmXv] recovered [0] indices into cluster_state
+[2016-11-13T21:30:18,684][INFO ][o.e.n.Node               ] [KenLmXv] stopping ...
+[2016-11-13T21:30:18,699][INFO ][o.e.n.Node               ] [KenLmXv] stopped
+[2016-11-13T21:30:18,699][INFO ][o.e.n.Node               ] [KenLmXv] closing ...
+[2016-11-13T21:30:18,709][INFO ][o.e.n.Node               ] [KenLmXv] closed
+[2016-11-13T21:30:37,151][INFO ][o.e.n.Node               ] [node-todzhang] initializing ...
+[2016-11-13T21:30:37,226][INFO ][o.e.e.NodeEnvironment    ] [node-todzhang] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [177.3gb], net total_space [464.7gb], spins? [unknown], types [hfs]
+[2016-11-13T21:30:37,227][INFO ][o.e.e.NodeEnvironment    ] [node-todzhang] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-11-13T21:30:37,232][INFO ][o.e.n.Node               ] [node-todzhang] version[5.0.0], pid[1384], build[253032b/2016-10-26T04:37:51.531Z], OS[Mac OS X/10.12.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2016-11-13T21:30:38,164][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [aggs-matrix-stats]
+[2016-11-13T21:30:38,164][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [ingest-common]
+[2016-11-13T21:30:38,164][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [lang-expression]
+[2016-11-13T21:30:38,164][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [lang-groovy]
+[2016-11-13T21:30:38,165][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [lang-mustache]
+[2016-11-13T21:30:38,165][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [lang-painless]
+[2016-11-13T21:30:38,165][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [percolator]
+[2016-11-13T21:30:38,165][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [reindex]
+[2016-11-13T21:30:38,165][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [transport-netty3]
+[2016-11-13T21:30:38,165][INFO ][o.e.p.PluginsService     ] [node-todzhang] loaded module [transport-netty4]
+[2016-11-13T21:30:38,166][INFO ][o.e.p.PluginsService     ] [node-todzhang] no plugins loaded
+[2016-11-13T21:30:40,471][INFO ][o.e.n.Node               ] [node-todzhang] initialized
+[2016-11-13T21:30:40,472][INFO ][o.e.n.Node               ] [node-todzhang] starting ...
+[2016-11-13T21:30:45,731][INFO ][o.e.t.TransportService   ] [node-todzhang] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2016-11-13T21:30:48,797][INFO ][o.e.c.s.ClusterService   ] [node-todzhang] new_master {node-todzhang}{KenLmXv4Qy-XZhGQREUzKA}{Zv9_bmrMR624Zt1yuiarLw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2016-11-13T21:30:48,822][INFO ][o.e.h.HttpServer         ] [node-todzhang] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2016-11-13T21:30:48,823][INFO ][o.e.n.Node               ] [node-todzhang] started
+[2016-11-13T21:30:48,825][INFO ][o.e.g.GatewayService     ] [node-todzhang] recovered [0] indices into cluster_state
+[2016-11-13T21:31:47,667][INFO ][o.e.n.Node               ] [node-todzhang] stopping ...
+[2016-11-13T21:31:47,682][INFO ][o.e.n.Node               ] [node-todzhang] stopped
+[2016-11-13T21:31:47,682][INFO ][o.e.n.Node               ] [node-todzhang] closing ...
+[2016-11-13T21:31:47,692][INFO ][o.e.n.Node               ] [node-todzhang] closed
